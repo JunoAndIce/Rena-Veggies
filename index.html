@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>318 Ink</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/loader.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200&family=Permanent+Marker&family=Poppins:wght@100;400;800&Roboto:wght@500&display=swap"
-    rel="stylesheet">
+  <title>Special Apparel Needs</title>
+  <link rel="stylesheet" href="/assets/css/menu.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 
 
 <body>
 
+  <nav class="navbar is-fixed-top is-flex-direction-column">
+
+    <div class="container is-flex is-justify-content-space-between ">
+
+
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <!-- <div class="title is-size-5 m-0">RVK</div> -->
+          <figure class="image">
+            <img class="" src="/assets/images/rena-icon-no-name.png" />
+          </figure>
+        </a>
+      </div>
+
+
+      <div role="button" class="">
+        <svg class="ham hamRotate ham4" id="firstX" viewBox="0 0 100 100" width="50" onclick="openMenu(this)">
+          <script>
+            const openMenu = function (event) {
+              event.classList.toggle('active');
+            }
+          </script>
+          <path
+                class="line top"
+                d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+          <path
+                class="line middle"
+                d="m 70,50 h -40" />
+          <path
+                class="line bottom"
+                d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+        </svg>
+      </div>
+      
+    </div>
+    
+    <div class="container side-menu is-hidden p-4">
+      <aside class="menu">
+        <p class="menu-label">General</p>
+        <ul class="menu-list">
+          <li><a>Dashboard</a></li>
+          <li><a>Customers</a></li>
+        </ul>
+        <p class="menu-label">Administration</p>
+        <ul class="menu-list">
+          <li><a>Team Settings</a></li>
+          <li>
+            <a class="">Manage Your Team</a>
+            <ul>
+              <li><a>Members</a></li>
+              <li><a>Plugins</a></li>
+              <li><a>Add a member</a></li>
+            </ul>
+          </li>
+          <li><a>Invitations</a></li>
+          <li><a>Cloud Storage Environment Settings</a></li>
+          <li><a>Authentication</a></li>
+        </ul>
+        <p class="menu-label">Transactions</p>
+        <ul class="menu-list">
+          <li><a>Payments</a></li>
+          <li><a>Transfers</a></li>
+          <li><a>Balance</a></li>
+        </ul>
+      </aside>
+    </div>
+  </nav>
 
 
 
+  <section class="bg-img hero is-fullheight-with-navbar is-link">
+    <div class="hero-body">
+      <div class="">
+        <p class="title">Fullheight hero with navbar</p>
+        <p class="subtitle">Half height subtitle</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div >
+
+    </div>
+  </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-  
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/9cb376baee.js" crossorigin="anonymous"></script>
-  <script src="./assets/js/script.js"></script>
-  
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

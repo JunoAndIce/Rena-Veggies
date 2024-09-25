@@ -5,3 +5,65 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+:root {
+  --dark-bg-font: #fff;
+  --light-bg-font: #000;
+  --font-azeret: 'Azeret Mono', monospace;
+  --font-poppins: 'Poppins', 'sans-serif';
+  --font-perm-marker: 'Permanent Marker', cursive;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-rethink: 'Rethink Sans', sans-serif;
+  --font-handlee: 'Handlee', cursive;
+  --border-lines-gray:  #424242;
+  --border-lines-lightGray:  rgb(165, 165, 165);
+}
+
+
+body {
+  background-color: rgb(255, 235, 206);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.font_aze {
+  font-family: var(--font-azeret);
+  font-weight: 200;
+}
+
+.font_marker {
+  font-family: var(--font-perm-marker) !important;
+  /* font-weight: 200; */
+}
+
+.font_roboto {
+  font-family: var(--font-roboto) !important;
+  /* font-weight: 700; */
+}
+
+.font_rethink {
+  font-family: var(--font-rethink) !important;
+  /* font-weight: 700; */
+  font-size: 20px;
+}
+
+.font_handlee {
+  font-family: var(--font-handlee) !important;
+  /* font-weight: 700; */
+}
+
+.bg-img { 
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url(/assets/images/catering.jpg) ;
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+
+}
+
+.navbar-item figure img {
+width: 36px;
+}
